@@ -9,10 +9,9 @@
 
 | Họ và Tên | Mã Học Viên | Vai trò chính | Phần việc đảm nhiệm trong dự án |
 |---|---|---|---|
-| Hoàng Văn Dương | 2A202602447 |  |  |
-| Lê Thanh Trường | 2A202602492 |  |  |
-| Nguyễn Đình Anh Đức | 2A202602856 |  |  |
-|  |  |  |  |
+| Hoàng Văn Dương | 2A202602447 | Prompt & Evaluation | Prompt, taxonomy, golden set và rubric |
+| Lê Thanh Trường | 2A202602492 | Engineering & Demo | Code, tích hợp AI thật, demo và logging |
+| Nguyễn Đình Anh Đức | 2A202602856 | Product & Evidence | Spec, evidence và source corpus |
 
 > Nhóm copy nguyên file README này về repo của mình, rồi điền bảng trên. Cột **Phần việc đảm nhiệm** ghi càng cụ thể càng tốt.
 
