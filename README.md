@@ -1,17 +1,17 @@
-# K4-3B-E403-ChamCongAI
+# K4-3B-E403-Triangle
 # Mini Hackathon AI — Batch 04 · Lớp 3B
 
 **SPEC → Prototype → Demo.** Đây không phải cuộc thi code — đây là cuộc thi **tư duy sản phẩm AI**.
 
 ## 👥 Thành viên nhóm & Phân công vai trò
 
-**Lớp:** 3B · **Phòng:** ____ · **Cụm:** ____ · **Track:** ____
+**Lớp:** 3B · **Phòng:** E403 · **Cụm:** 4 · **Track:** B
 
 | Họ và Tên | Mã Học Viên | Vai trò chính | Phần việc đảm nhiệm trong dự án |
 |---|---|---|---|
-|Hoàng Văn Dương|2A202602447|  |  |
-|Lê Thanh Trường|2A202602492|  |  |
-|Nguyễn Đình Anh Đức|2A202602856|  |  |
+| Hoàng Văn Dương | 2A202602447 |  |  |
+| Lê Thanh Trường | 2A202602492 |  |  |
+| Nguyễn Đình Anh Đức | 2A202602856 |  |  |
 |  |  |  |  |
 
 > Nhóm copy nguyên file README này về repo của mình, rồi điền bảng trên. Cột **Phần việc đảm nhiệm** ghi càng cụ thể càng tốt.
