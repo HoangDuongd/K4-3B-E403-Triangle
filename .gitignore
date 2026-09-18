@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+
+# Cache vector cua RAG - sinh tu dong, khong can dua len git
+.rag_cache.json
+.rag_cache.json.tmp
+
+# Khong bao gio dua token len git
+.env
