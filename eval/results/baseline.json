@@ -1,0 +1,98 @@
+{
+  "nguon_du_lieu": {
+    "file": "k4_messages.csv",
+    "tong_tin": 1092,
+    "tin_nguoi": 779,
+    "tin_bot": 313,
+    "so_kenh": 10,
+    "so_tac_gia": 202,
+    "tu_ngay": "2026-09-12",
+    "den_ngay": "2026-09-14"
+  },
+  "A_khoi_luong_hoi_dap": {
+    "tin_nguoi": 779,
+    "tin_nguoi_la_cau_hoi": 342,
+    "ty_le_cau_hoi_pct": 43.9,
+    "cau_hoi_tag_bot": 188,
+    "ty_le_tag_bot_pct": 55.0
+  },
+  "B_ty_le_duoc_tra_loi": {
+    "moi_cau_hoi": {
+      "tra_loi_boi_nguoi": 78,
+      "tra_loi_boi_bot": 184,
+      "khong_ai_tra_loi": 80,
+      "ty_le_khong_ai_tra_loi_pct": 23.4
+    },
+    "cau_hoi_tag_bot": {
+      "tra_loi_boi_nguoi": 3,
+      "tra_loi_boi_bot": 184,
+      "khong_ai_tra_loi": 1,
+      "ty_le_phai_nho_nguoi_tra_loi_pct": 1.6,
+      "ty_le_khong_ai_tra_loi_pct": 0.5
+    }
+  },
+  "C_do_dai_cau_tra_loi": {
+    "bot_trung_binh": 486.5,
+    "bot_trung_vi": 256,
+    "bot_dai_nhat": 1905,
+    "bot_tren_500_ky_tu_pct": 37.4,
+    "bot_tren_1000_ky_tu_pct": 14.7,
+    "nguoi_trung_vi": 53
+  },
+  "D_co_chi_ra_nguon": {
+    "bot_co_nguon": 87,
+    "bot_khong_nguon": 226,
+    "ty_le_khong_nguon_pct": 72.2
+  },
+  "E_cau_tra_loi_rap_khuon": {
+    "so_mau_lap_lai": 13,
+    "so_tin_bi_lap": 81,
+    "ty_le_pct": 25.9
+  },
+  "F_cau_hoi_lap": {
+    "so_nhom_cau_hoi_lap": 11,
+    "so_tin_lap": 23,
+    "ty_le_pct": 6.7
+  },
+  "G_phan_bo_chu_de": {
+    "cơ chế build-phase": 143,
+    "khác": 105,
+    "hướng dẫn VLearn": 39,
+    "các mốc mini-hackathon": 32,
+    "lịch workshop": 23
+  },
+  "H_loi_chen_chuoi_nguon": {
+    "so_tin_bot_dinh_loi": 0
+  },
+  "I_bao_thieu_can_cu": {
+    "so_tin_bot": 32,
+    "ty_le_pct": 10.2,
+    "ghi_chu": "bot có nói 'chưa có thông tin' / 'tạo ticket' không"
+  },
+  "J_do_phu_chu_de_van_hoa": {
+    "trang phục": {
+      "tin_nguoi": 0,
+      "tin_bot": 0
+    },
+    "nội quy": {
+      "tin_nguoi": 0,
+      "tin_bot": 0
+    },
+    "văn hóa": {
+      "tin_nguoi": 0,
+      "tin_bot": 0
+    },
+    "kích thích": {
+      "tin_nguoi": 0,
+      "tin_bot": 0
+    },
+    "ứng xử": {
+      "tin_nguoi": 0,
+      "tin_bot": 0
+    },
+    "quy tắc": {
+      "tin_nguoi": 0,
+      "tin_bot": 1
+    }
+  }
+}

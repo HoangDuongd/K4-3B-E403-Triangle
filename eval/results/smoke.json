@@ -1,0 +1,204 @@
+{
+  "run": "smoke",
+  "model": "qwen3.7-flash",
+  "thoi_gian_giay": 7.1,
+  "quality_bar": "Đạt khi ≥75% case qua cả 5 tiêu chí F1–F5, VÀ không case nào ở lớp ③ vi phạm tiêu chí F5.",
+  "thong_ke": {
+    "tong_case": 3,
+    "dat_het": 3,
+    "ty_le_dat_pct": 100.0,
+    "theo_tieu_chi": {
+      "F1": {
+        "dat": 3,
+        "ty_le_pct": 100.0
+      },
+      "F2": {
+        "dat": 3,
+        "ty_le_pct": 100.0
+      },
+      "F3": {
+        "dat": 3,
+        "ty_le_pct": 100.0
+      },
+      "F4": {
+        "dat": 3,
+        "ty_le_pct": 100.0
+      },
+      "F5": {
+        "dat": 3,
+        "ty_le_pct": 100.0
+      }
+    },
+    "theo_lop": {
+      "①": {
+        "tong": 1,
+        "dat": 1,
+        "ty_le_pct": 100.0
+      },
+      "③": {
+        "tong": 1,
+        "dat": 1,
+        "ty_le_pct": 100.0
+      },
+      "④": {
+        "tong": 1,
+        "dat": 1,
+        "ty_le_pct": 100.0
+      }
+    },
+    "vi_pham_lop_3_F5": 0,
+    "do_dai_trung_binh": 222.3,
+    "do_dai_dai_nhat": 293
+  },
+  "cases": [
+    {
+      "id": "LT1",
+      "muc_do": "thuong",
+      "lop": "④",
+      "chu_de": "lịch-workshop",
+      "muc_do_grid": {
+        "loai_cau_hoi": "hỏi-thông-tin",
+        "do_day_nguon": "đủ",
+        "do_ro_input": "rõ",
+        "hanh_vi_mong_doi": "answer"
+      },
+      "input": "Workshop 02 diễn ra khi nào và theo hình thức nào ạ?",
+      "expect": {
+        "action": "answer",
+        "must_include_any": [
+          "13/09",
+          "13/9",
+          "20:00"
+        ],
+        "ghi_chu": "Nguồn có đủ: '🚀 THÔNG BÁO WORKSHOP 02', 20:00 ngày 13/09, online qua Zoom."
+      },
+      "action": "answer",
+      "reply_model": "Workshop 02 diễn ra vào lúc 20:00 tối ngày 13/09 (thứ Năm). Buổi học được tổ chức trực tuyến qua Zoom. Bạn nhớ vào sớm từ 19:50 để ổn định kỹ thuật nhé!",
+      "message": "Workshop 02 diễn ra vào lúc 20:00 tối ngày 13/09 (thứ Năm). Buổi học được tổ chức trực tuyến qua Zoom. Bạn nhớ vào sớm từ 19:50 để ổn định kỹ thuật nhé!\n\n📌 Nguồn: #thông-báo · 🚀 THÔNG BÁO WORKSHOP 02",
+      "sources": [
+        0
+      ],
+      "do_dai_than": 152,
+      "tieu_chi": {
+        "F1": {
+          "dat": true,
+          "ly_do": ""
+        },
+        "F2": {
+          "dat": true,
+          "ly_do": ""
+        },
+        "F3": {
+          "dat": true,
+          "ly_do": "",
+          "do_dai_than": 152
+        },
+        "F4": {
+          "dat": true,
+          "ly_do": ""
+        },
+        "F5": {
+          "dat": true,
+          "ly_do": ""
+        }
+      },
+      "dat_het": true,
+      "loi_he_thong": null
+    },
+    {
+      "id": "BP3",
+      "muc_do": "chokho",
+      "lop": "①",
+      "chu_de": "cơ-chế-build-phase",
+      "muc_do_grid": {
+        "loai_cau_hoi": "hỏi-thông-tin",
+        "do_day_nguon": "không-có",
+        "do_ro_input": "rõ",
+        "hanh_vi_mong_doi": "escalate"
+      },
+      "input": "Daily standup mở và đóng lúc nào vậy ạ? Hôm qua mình gửi sớm thì không được, chiều nay quá hạn thì bị chặn.",
+      "expect": {
+        "action": "escalate",
+        "must_flag_missing": true,
+        "ghi_chu": "Khung giờ standup CÓ tồn tại trong chatlog nhưng KHÔNG có trong #thông-báo. Trả lời một khung giờ cụ thể là bịa. Đây là case lớp ① sát pain nhất — học viên đang vướng thật."
+      },
+      "action": "escalate",
+      "reply_model": "Mình chưa thấy thông tin chính thức về khung giờ cụ thể mở/đóng Daily Standup trong các thông báo hiện tại. Bạn vui lòng kiểm tra lại quy định chi tiết hoặc hỏi trực tiếp Coach/Bot để được hỗ trợ chính xác nhé!",
+      "message": "Mình chưa thấy thông tin chính thức về khung giờ cụ thể mở/đóng Daily Standup trong các thông báo hiện tại. Bạn vui lòng kiểm tra lại quy định chi tiết hoặc hỏi trực tiếp Coach/Bot để được hỗ trợ chính xác nhé!\n\n<@658607559728431125> ơi, câu hỏi này chưa có trong #thông-báo, nhờ bạn hỗ trợ ạ.",
+      "sources": [],
+      "do_dai_than": 293,
+      "tieu_chi": {
+        "F1": {
+          "dat": true,
+          "ly_do": ""
+        },
+        "F2": {
+          "dat": true,
+          "ly_do": ""
+        },
+        "F3": {
+          "dat": true,
+          "ly_do": "",
+          "do_dai_than": 293
+        },
+        "F4": {
+          "dat": true,
+          "ly_do": ""
+        },
+        "F5": {
+          "dat": true,
+          "ly_do": ""
+        }
+      },
+      "dat_het": true,
+      "loi_he_thong": null
+    },
+    {
+      "id": "NL1",
+      "muc_do": "thuong",
+      "lop": "③",
+      "chu_de": "ngoài-lề",
+      "muc_do_grid": {
+        "loai_cau_hoi": "vượt-phạm-vi",
+        "do_day_nguon": "không-có",
+        "do_ro_input": "rõ",
+        "hanh_vi_mong_doi": "out_of_scope"
+      },
+      "input": "Mai Hà Nội có mưa không ạ?",
+      "expect": {
+        "action": "out_of_scope",
+        "ghi_chu": "Lạc đề: nêu giới hạn hỗ trợ, TUYỆT ĐỐI không chuyển TA. Phân biệt đúng với escalate là điểm hay bị lẫn."
+      },
+      "action": "out_of_scope",
+      "reply_model": "Chào bạn, mình chỉ hỗ trợ tra cứu thông tin liên quan đến chương trình AI20K như lịch workshop, link tham gia hay quy định học tập. Mình không có khả năng dự báo thời tiết. Bạn hãy hỏi lại về các vấn đề trong khóa học nhé!",
+      "message": "Chào bạn, mình chỉ hỗ trợ tra cứu thông tin liên quan đến chương trình AI20K như lịch workshop, link tham gia hay quy định học tập. Mình không có khả năng dự báo thời tiết. Bạn hãy hỏi lại về các vấn đề trong khóa học nhé!",
+      "sources": [],
+      "do_dai_than": 222,
+      "tieu_chi": {
+        "F1": {
+          "dat": true,
+          "ly_do": ""
+        },
+        "F2": {
+          "dat": true,
+          "ly_do": ""
+        },
+        "F3": {
+          "dat": true,
+          "ly_do": "",
+          "do_dai_than": 222
+        },
+        "F4": {
+          "dat": true,
+          "ly_do": ""
+        },
+        "F5": {
+          "dat": true,
+          "ly_do": ""
+        }
+      },
+      "dat_het": true,
+      "loi_he_thong": null
+    }
+  ]
+}

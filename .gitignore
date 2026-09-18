@@ -8,3 +8,15 @@ __pycache__/
 
 # Khong bao gio dua token len git
 .env
+
+# Data pack cua BTC - repo nop bai PHAI cong khai, khong duoc commit du lieu that
+# (quy dinh bao mat trong README: khong commit data pack vao repo nop bai)
+k4_messages.csv
+discord-pack/
+vlearn-pack/
+studio-pack/
+
+# Vet goi model khi bot chay THAT tren Discord: prompt chua corpus nguyen ban
+# (link Zoom + passcode) va cau hoi that cua hoc vien. Khong duoc len repo cong khai.
+# Vet cua golden set nam o eval/traces/ - ban da che thong tin, duoc commit lam bang chung.
+logs/
